@@ -50,7 +50,7 @@ Trading-Bot/
 
 ### LIMIT Order Execution
 
-![Limit Order](screenshots/limit-order.png)
+![Limit Order](screenshots/limit_order.png)
 
 ### Generated Logs
 
