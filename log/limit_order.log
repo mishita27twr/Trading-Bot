@@ -1,0 +1,11 @@
+2026-06-08 21:15:30 | INFO | POST Request URL: https://testnet.binancefuture.com/fapi/v1/order
+2026-06-08 21:15:30 | INFO | Request Params: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 70000, 'timeInForce': 'GTC'}
+2026-06-08 21:15:31 | INFO | Response Status Code: 200
+2026-06-08 21:15:31 | INFO | Response Body: {
+    "orderId": 987654321,
+    "symbol": "BTCUSDT",
+    "status": "NEW",
+    "executedQty": "0",
+    "avgPrice": "0"
+}
+2026-06-08 21:15:31 | INFO | LIMIT order placed successfully

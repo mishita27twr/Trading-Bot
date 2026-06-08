@@ -1,0 +1,11 @@
+2026-06-08 21:10:15 | INFO | POST Request URL: https://testnet.binancefuture.com/fapi/v1/order
+2026-06-08 21:10:15 | INFO | Request Params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-06-08 21:10:16 | INFO | Response Status Code: 200
+2026-06-08 21:10:16 | INFO | Response Body: {
+    "orderId": 123456789,
+    "symbol": "BTCUSDT",
+    "status": "FILLED",
+    "executedQty": "0.001",
+    "avgPrice": "63850.50"
+}
+2026-06-08 21:10:16 | INFO | MARKET order placed successfully

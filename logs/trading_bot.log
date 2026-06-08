@@ -1,0 +1,12 @@
+2026-06-08 21:43:04,456 | INFO | POST Request URL: https://testnet.binancefuture.com/fapi/v1/order
+2026-06-08 21:43:04,456 | INFO | Request Params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'timestamp': 1780935184456, 'signature': 'a346eda148f4a54d73280aa01d5a6cdba56973b9a8ff30337de961c2cad8419e'}
+2026-06-08 21:43:04,760 | INFO | Response Status Code: 401
+2026-06-08 21:43:04,760 | INFO | Response Body: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-06-08 21:43:04,760 | ERROR | API Error: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-06-08 21:43:04,784 | ERROR | Order failed: API Error: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-06-08 21:43:15,894 | INFO | POST Request URL: https://testnet.binancefuture.com/fapi/v1/order
+2026-06-08 21:43:15,894 | INFO | Request Params: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 70000.0, 'timeInForce': 'GTC', 'timestamp': 1780935195894, 'signature': '99114fbcd44c613ee3d03a606f7779f9b5212c2ed3c3f6e01c593d2a234afa8f'}
+2026-06-08 21:43:16,211 | INFO | Response Status Code: 401
+2026-06-08 21:43:16,211 | INFO | Response Body: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-06-08 21:43:16,211 | ERROR | API Error: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
+2026-06-08 21:43:16,211 | ERROR | Order failed: API Error: {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}
