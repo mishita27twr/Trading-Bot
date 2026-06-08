@@ -87,20 +87,6 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
----
-
-## Configuration
-
-Create a `.env` file in the project root directory:
-
-```env
-BINANCE_API_KEY=your_api_key
-BINANCE_API_SECRET=your_api_secret
-BINANCE_BASE_URL=https://testnet.binancefuture.com
-```
-
----
-
 ## Usage
 
 ### MARKET Order
@@ -204,6 +190,11 @@ The application handles:
 * Web-based dashboard for monitoring orders.
 
 ---
+## Note
+
+The application successfully validates user input, constructs signed requests, communicates with the Binance Futures Testnet API, and logs all requests, responses, and errors.
+
+During testing, Binance returned authentication-related responses (`Invalid API-key, IP, or permissions for action`) for the provided API credentials. These responses were captured and handled gracefully through the application's error handling and logging mechanisms.
 
 ## Author
 
