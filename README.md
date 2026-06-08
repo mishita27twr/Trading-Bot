@@ -201,6 +201,7 @@ During testing, Binance returned authentication-related responses (`Invalid API-
 **Mishita Tiwari**
 
 * GitHub: https://github.com/mishita27twr
+* Linkdn: https://www.linkedin.com/in/mishita-tiwari/
 
 ---
 
