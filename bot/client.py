@@ -46,7 +46,9 @@ class BinanceFuturesClient:
         }
 
         logger.info(f"POST Request URL: {url}")
-        logger.info(f"Request Params: {params}")
+        safe_params = params.copy()
+        safe_params.pop("signature", None)
+        logger.info(f"Request Params: {safe_params}")
 
         try:
             response = requests.post(
